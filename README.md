@@ -12,7 +12,7 @@
 git clone https://github.com/klcc-c/klcc-tools.git
 cd klcc-tools
 go mod tidy
-go build main.go
+go build -o klcc-tools
 ./klcc-tools upfile
 ```
 
