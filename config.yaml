@@ -1,0 +1,18 @@
+db_server:
+  host: ""
+  port: 3306
+  username: ""
+  password: ""
+init_db:
+  auth_db:
+    db_name: ""
+    table_file: ""
+    init_file: ""
+minio_url:
+  host: ""
+  port: 8000
+data_dir: "./data"
+access_key: ""
+secret_key: ""
+
+
