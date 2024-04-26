@@ -1,5 +1,5 @@
 ## klcc-tools
-
+迁移仓库，原仓库 https://github.com/klcc-c
 ### 说明
 
 ```
@@ -12,8 +12,11 @@
 git clone https://github.com/klcc-c/klcc-tools.git
 cd klcc-tools
 go mod tidy
-go build -o klcc-tools
-./klcc-tools upfile
+go build
+./main upfile
+
+# go build -o klcc-tools
+# ./klcc-tools upfile
 ```
 
 TODO
