@@ -1,4 +1,4 @@
-## klcc-tools
+## minio-tool
 迁移仓库，原仓库 https://github.com/klcc-c
 ### 说明
 
@@ -9,8 +9,8 @@
 ### 使用
 
 ```
-git clone https://github.com/klcc-c/klcc-tools.git
-cd klcc-tools
+git clone https://github.com/Seranor/minio-upfile.git
+cd minio-upfile
 go mod tidy
 go build
 ./main upfile
